@@ -1,0 +1,21 @@
+10:42:05.934 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+10:42:05.946 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+22:11:21.329 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+22:11:21.332 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+22:17:14.385 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+22:17:14.387 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+22:33:49.265 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+22:33:49.267 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+22:35:37.997 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+22:35:37.999 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+00:15:57.694 [main] INFO  TestCases.SideMenuTests - ----- Side Menu Test Started -----
+00:32:43.253 [main] INFO  TestCases.SideMenuTests - ----- Side Menu Test Started -----
+00:33:19.054 [main] INFO  TestCases.SideMenuTests - ----- Side Menu Test Started -----
+00:38:28.688 [main] INFO  TestCases.SideMenuTests - ----- Side Menu Test Started -----
+00:41:16.208 [main] INFO  TestCases.SideMenuTests - ----- Side Menu Test Started -----
+01:02:18.208 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+01:02:18.211 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+01:03:42.686 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+01:03:42.689 [main] INFO  TestCases.LoginTests - this is a debug log messagae
+01:13:47.026 [main] INFO  TestCases.LoginTests - ---Login Test Started----
+01:13:47.029 [main] INFO  TestCases.LoginTests - this is a debug log messagae

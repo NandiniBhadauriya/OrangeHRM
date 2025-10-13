@@ -1,36 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-08T01:17:01 IST" name="Default suite" finished-at="2025-10-08T01:17:14 IST" duration-ms="12388">
+  <suite started-at="2025-10-13T22:05:25 IST" name="Suite" finished-at="2025-10-13T22:07:02 IST" duration-ms="97436">
     <groups>
     </groups>
-    <test started-at="2025-10-08T01:17:01 IST" name="Default test" finished-at="2025-10-08T01:17:14 IST" duration-ms="12388">
+    <test started-at="2025-10-13T22:05:25 IST" name="Test" finished-at="2025-10-13T22:07:02 IST" duration-ms="97436">
       <class name="TestCases.DashboardTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.DashboardTests@bccb269]" started-at="2025-10-08T01:17:01 IST" name="setup" finished-at="2025-10-08T01:17:07 IST" duration-ms="5594" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.DashboardTests@71e9ddb4]" started-at="2025-10-13T22:05:45 IST" name="setup" finished-at="2025-10-13T22:05:56 IST" duration-ms="10812" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.DashboardTests@bccb269]" started-at="2025-10-08T01:17:07 IST" name="setUp" finished-at="2025-10-08T01:17:12 IST" duration-ms="4857" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.DashboardTests@71e9ddb4]" started-at="2025-10-13T22:05:56 IST" name="setUp" finished-at="2025-10-13T22:06:02 IST" duration-ms="6961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDashboardPageAfterLogin()[pri:0, instance:TestCases.DashboardTests@bccb269]" started-at="2025-10-08T01:17:12 IST" name="verifyDashboardPageAfterLogin" finished-at="2025-10-08T01:17:14 IST" duration-ms="1680" status="PASS">
+        <test-method signature="verifyDashboardPageAfterLogin()[pri:0, instance:TestCases.DashboardTests@71e9ddb4]" started-at="2025-10-13T22:06:02 IST" name="verifyDashboardPageAfterLogin" finished-at="2025-10-13T22:06:05 IST" duration-ms="2215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageAfterLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DashboardTests@bccb269]" started-at="2025-10-08T01:17:14 IST" name="tearDown" finished-at="2025-10-08T01:17:14 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DashboardTests@71e9ddb4]" started-at="2025-10-13T22:06:05 IST" name="tearDown" finished-at="2025-10-13T22:06:05 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.DashboardTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestCases.LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.LoginTests@55b0dcab]" started-at="2025-10-13T22:05:25 IST" name="setup" finished-at="2025-10-13T22:05:40 IST" duration-ms="14796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:TestCases.LoginTests@55b0dcab]" started-at="2025-10-13T22:05:40 IST" name="verifyLoginFunctionality" finished-at="2025-10-13T22:05:43 IST" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTests@55b0dcab]" started-at="2025-10-13T22:05:43 IST" name="tearDown" finished-at="2025-10-13T22:05:45 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LoginTests -->
+      <class name="TestCases.SideMenuTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.SideMenuTests@394df057]" started-at="2025-10-13T22:06:05 IST" name="setup" finished-at="2025-10-13T22:06:15 IST" duration-ms="10391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSideMenu()[pri:0, instance:TestCases.SideMenuTests@394df057]" started-at="2025-10-13T22:06:15 IST" name="testSideMenu" finished-at="2025-10-13T22:07:01 IST" duration-ms="45757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSideMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SideMenuTests@394df057]" started-at="2025-10-13T22:07:01 IST" name="tearDown" finished-at="2025-10-13T22:07:02 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SideMenuTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

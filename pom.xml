@@ -23,7 +23,7 @@
           <version>3.5.4</version>
            <configuration>
            <suiteXmlFiles>
-                   <suiteXmlFile>src/test/java/testCases/TestNgXML.xml</suiteXmlFile>
+                   <suiteXmlFile>TESTngXML.xml</suiteXmlFile>
            
            </suiteXmlFiles>
           

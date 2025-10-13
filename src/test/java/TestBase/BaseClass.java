@@ -44,7 +44,7 @@ public class BaseClass {
 		switch(br.toLowerCase()) {
 		case "chrome":
 			ChromeOptions coptions = new ChromeOptions();
-//			coptions.addArguments("--headless=false");
+			coptions.addArguments("--headless=false");
 			coptions.addArguments("--window-size=1920,1080");
 			driver = new ChromeDriver(coptions);
 			break;

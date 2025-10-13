@@ -2,13 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="browser" value="firefox"/>
     <classes>
-   
-       <class name="TestCases.LoginTests"/>
-       <class name="TestCases.DashboardTests"/>
-       <class name="TestCases.SideMenuTests"/>
-       
+    
+      <class name="TestCases.LoginTests"/>
+    
+      <class name="TestCases.DashboardTests"/>
+      
+      <class name="TestCases.SideMenuTests"/>
       
     </classes>
+  
   </test> <!-- Test -->
 </suite> <!-- Suite -->
